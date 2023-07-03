@@ -186,7 +186,7 @@ function showHome() {
         }
         router.updatePageLinks()
     }
-    hwHeader("Anime List", "使用左方選單來瀏覽本站資料", "點擊左上角選單鈕來瀏覽本站資料")
+    hwHeader("Calendario de Contenido", "使用左方選單來瀏覽本站資料", "點擊左上角選單鈕來瀏覽本站資料")
     $("#content").html(
         `<div class="mdui-typo">
             <div class="mdui-typo-display-1 al-header">最近更新</div>
