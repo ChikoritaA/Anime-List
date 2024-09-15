@@ -440,8 +440,9 @@ function showAnimeInfoDialog(item, year) {
                     </div>
                 </div>
             </div>
-            <div id="anime-tab-marketplace" class="mdui-p-a-2">
+            <div id="anime-tab-url" class="mdui-p-a-2">
             Marketplace  / Google Big Facebook  
+            Mi idea aqui es generar de manera generosa enlaces alas web de mercado que puedan vender el contenido y navegadores
             </div>
             <div id="anime-tab-comment" class="mdui-p-a-2">
 
