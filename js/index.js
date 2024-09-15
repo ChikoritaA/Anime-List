@@ -110,7 +110,7 @@ $(function () {
     $("#drawer>.mdui-list").append(
         `<li class="mdui-list-item mdui-ripple" href="home" data-navigo>
             <i class="mdui-list-item-icon mdui-icon eva eva-home-outline"></i>
-            <div class="mdui-list-item-content">首頁</div>
+            <div class="mdui-list-item-content">Inicio</div>
         </li>`
     )
     for (year of Object.keys(indexData).reverse()) {
