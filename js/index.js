@@ -427,8 +427,10 @@ function showAnimeInfoDialog(item, year) {
         <div class="anime-poster" style="background-image:url('${item.img}')"><img src="${item.img}"/></div>
         <div class="anime-info-container">
             <div class="mdui-tab mdui-tab-full-width" mdui-tab>
-                <a href="#anime-tab-info" class="mdui-ripple">簡介</a>
-                <a href="#anime-tab-comment" class="mdui-ripple">留言板</a>
+                <a href="#anime-tab-info" class="mdui-ripple">Informacion</a>
+                <a href="#anime-tab-info" class="mdui-ripple">Marketplace</a>
+                <a href="#anime-tab-info" class="mdui-ripple">FanShare</a>
+                <a href="#anime-tab-comment" class="mdui-ripple">Comentarios</a>
             </div>
             <div id="anime-tab-info" class="mdui-p-a-2">
                 <div class="anime-info">
@@ -439,11 +441,17 @@ function showAnimeInfoDialog(item, year) {
                     </div>
                 </div>
             </div>
+            <div id="anime-tab-marketplace" class="mdui-p-a-2">
+
+            </div>
+            <div id="anime-tab-fanshare" class="mdui-p-a-2">
+
+            </div>
             <div id="anime-tab-comment" class="mdui-p-a-2">
 
             </div>
             <div class="anime-actions" style="padding: 16px">
-                <button class="mdui-btn mdui-btn-dense mdui-color-theme-accent mdui-ripple" mdui-dialog-close>關閉</button>
+                <button class="mdui-btn mdui-btn-dense mdui-color-theme-accent mdui-ripple" mdui-dialog-close>Cerrar</button>
             </div>
         </div>
     </div>`
@@ -453,7 +461,7 @@ function showAnimeInfoDialog(item, year) {
         content: animeDialogContent,
         history: navigator.userAgent.toLowerCase().indexOf('firefox') == -1, // not Firefox
         /* buttons: [{
-             text: '關閉'
+             text: 'Cerrar'
          }],*/
         onClose: () => router.pause(false)
     });
