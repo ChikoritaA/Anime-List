@@ -428,8 +428,7 @@ function showAnimeInfoDialog(item, year) {
         <div class="anime-info-container">
             <div class="mdui-tab mdui-tab-full-width" mdui-tab>
                 <a href="#anime-tab-info" class="mdui-ripple">Informacion</a>
-                <a href="#anime-tab-marketplace" class="mdui-ripple">Marketplace</a>
-                <a href="#anime-tab-fanshare" class="mdui-ripple">FanShare</a>
+                <a href="#anime-tab-url" class="mdui-ripple">Enlaces</a>
                 <a href="#anime-tab-comment" class="mdui-ripple">Comentarios</a>
             </div>
             <div id="anime-tab-info" class="mdui-p-a-2">
@@ -442,10 +441,7 @@ function showAnimeInfoDialog(item, year) {
                 </div>
             </div>
             <div id="anime-tab-marketplace" class="mdui-p-a-2">
-            Marketplace    
-            </div>
-            <div id="anime-tab-fanshare" class="mdui-p-a-2">
-            Fanshare
+            Marketplace  / Google Big Facebook  
             </div>
             <div id="anime-tab-comment" class="mdui-p-a-2">
 
